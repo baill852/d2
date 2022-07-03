@@ -1,0 +1,26 @@
+{
+    "version": "1.0",
+    "test1": [1,2,3,4,5],
+    "test": {
+        "invalid_key": "asd",
+        "Invalid_Key": "asd",
+        "Invalid_key_key_key": "asd",
+        "a": "ok"
+    },
+    "rules": [
+        {
+            "resource": {
+                "path": "/api/data/documents"
+            },
+            "allowOrigins": [ "http://this.example.com", "http://that.example.com" ],
+            "allowMethods": [ "GET" ],
+            "allowCredentials": true,
+            "invalid_key": "asd",
+            "Invalid_Key": "asd",
+            "Invalid_key_key_key": "asd"
+        }
+    ],
+    "invalid_key": "asd",
+    "Invalid_Key": "asd",
+    "Invalid_key_key_key": "asd"
+}
